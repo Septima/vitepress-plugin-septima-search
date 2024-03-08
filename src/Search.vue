@@ -111,6 +111,27 @@ onMounted(async () => {
 
   window.addEventListener("keydown", handleSearchHotKey);
   
+setTimeout(() => {
+  
+  var controller = new Septima.Search.Controller([],{ blankBehavior: "search"})
+ 
+  var dawaSearcher = new Septima.Search.DawaSearcher({
+    kommunekode: '157',
+    onSelect: (a,b,c) => {
+      console.log(a,b,c);
+      
+    },
+    minimumShowCount: 0
+  })
+  controller.addSearcher(dawaSearcher)
+ 
+  var view = new Septima.Search.DefaultView(
+    {
+      input: 'inputcontainer',
+      controller: controller
+    })
+
+  }, 2000);
 
 });
 
@@ -160,80 +181,7 @@ const handleNavigation = (e: KeyboardEvent) => {
       <Teleport to="body">
         <div v-show="open" class="VPPluginSearch-modal-back" @click="open = false" @keydown="handleNavigation">
           <div class="VPPluginSearch-modal" @click.stop ref="modal" >
-            <form class="DocSearch-Form">
-              <label
-                class="DocSearch-MagnifierLabel"
-                for="docsearch-input"
-                id="docsearch-label"
-                ><svg
-                  width="20"
-                  height="20"
-                  class="DocSearch-Search-Icon"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z"
-                    stroke="currentColor"
-                    fill="none"
-                    fill-rule="evenodd"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                </svg>
-              </label>
-
-              <input
-                class="DocSearch-Input"
-                aria-autocomplete="both"
-                aria-labelledby="docsearch-label"
-                id="docsearch-input"
-                autocomplete="off"
-                autocorrect="off"
-                autocapitalize="off"
-                enterkeyhint="search"
-                spellcheck="false"
-                autofocus="true"
-                v-model="searchTerm"
-                :placeholder=placeholder
-                maxlength="64"
-                type="search"
-                ref="input"
-              />
-            </form>
-            <div class="VPPluginSearch-search-list">
-              <div class="search-group"
-                v-for="(group, groupKey) of groupedResults"
-                :key="groupKey"                
-              >
-                <span class="VPPluginSearch-search-group">{{
-                  groupKey
-                    ? groupKey.toString()[0].toUpperCase() +
-                      groupKey.toString().slice(1) 
-                    : "Home"
-                }}</span>
-                <a
-                  :href="origin + item.link"
-                  v-for="(item, index) in group"
-                  :key="item.id"
-                  @click="cleanSearch"                  
-                  @mouseenter="focused = item.id"
-                  :class="{'link-focused':focused == item.id}"
-                  :id="index.toString()"
-                >
-                  <div class="VPPluginSearch-search-item">
-                    <span class="VPPluginSearch-search-item-icon">{{
-                      item.link.includes("#") ? "#" : "▤"
-                    }}</span>
-                    <div style="width: 100%">
-                      <h3>{{ item.title }}</h3>
-                      <p> <div v-html="item.preview"></div> </p>
-                    </div>
-                    <span class="VPPluginSearch-search-item-icon">↪</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <img class="VPPluginSearch-flex-logo" src="./flex-logo.svg" alt="flex logo"/>
+            <div id="inputcontainer"></div>
           </div>
         </div>
       </Teleport>
@@ -260,7 +208,7 @@ const handleNavigation = (e: KeyboardEvent) => {
               stroke-linejoin="round"
             ></path>
           </svg>
-          <span class="DocSearch-Button-Placeholder">{{buttonLabel}}</span>
+          <span class="DocSearch-Button-Placeholder">Søg</span>
         </span>
         <span class="DocSearch-Button-Keys">
           <span class="DocSearch-Button-Key" ref="metaKey">Meta</span>
