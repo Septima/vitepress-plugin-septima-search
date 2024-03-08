@@ -369,7 +369,7 @@ const handleNavigation = (e: KeyboardEvent) => {
     background-color: #f9f9f9;
     border-radius: 6px;
     flex-direction: column;
-    margin: 20px auto auto;
+    margin: 40px auto auto;
     max-width: 560px;
     position: relative;
     box-shadow: inset 1px 1px 0 0 hsla(0, 0%, 100%, 0.5), 0 3px 8px 0 #555a64;
@@ -631,6 +631,15 @@ const handleNavigation = (e: KeyboardEvent) => {
 
   .VPPluginSearch-modal .septimasearch {
     border: none;
+  }
+
+  .VPPluginSearch-modal .septimasearch .ssTargetbit {
+    border-radius: 10px;
+  }
+
+  .VPPluginSearch-modal .septimasearch .ssSearchHeader .ssSearchBackground {
+    height: auto;
+    padding: 8px 12px;
   }
   
   .VPPluginSearch-modal .septimasearch .ssSearchResult {
