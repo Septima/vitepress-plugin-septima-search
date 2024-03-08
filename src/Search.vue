@@ -260,362 +260,396 @@ const handleNavigation = (e: KeyboardEvent) => {
 </template>
 
 <style>
-.VPPluginSearch-flex-logo{
-  width: 80px;
-  margin-left: calc(100% - 90px);
-  padding-bottom: 10px;
-}
-
-.VPPluginSearch-search-list {
-  padding: 1rem;
-  max-height: calc(100vh - 230px);
-  overflow-x: auto;
-}
-
-.VPPluginSearch-search-item-icon {
-  font-family: none;
-  align-self: center;
-  padding: 0 1rem 0 0;
-  font-size: x-large;
-}
-
-.VPPluginSearch-search-list > div {
-  color: var(--vp-c-brand-dark);
-  font-weight: bold;
-}
-
-.VPPluginSearch-search-item {
-  padding: 0.25rem 1rem;
-  margin: 8px 0 0 0;
-  border: solid 1px;
-  border-radius: 6px;
-  display: flex;
-
-  border-color: var(--vp-custom-block-details-border);
-  color: var(--vp-custom-block-details-text);
-  background-color: var(--vp-custom-block-details-bg);
-}
-
-.VPPluginSearch-search-item p {
-  margin: 0px;
-  font-size: smaller;
-  color: var(--c-text-light-3);
-}
-
-a.link-focused .VPPluginSearch-search-item,
-.VPPluginSearch-search-item:hover {
-  color: #fff;
-  background: var(--vp-local-search-highlight-bg);
-}
-
-a.link-focused .VPPluginSearch-search-item,
-.VPPluginSearch-search-item:hover > p {
-  color: #fff;
-}
-
-/* .dark .search-item > p {
-  color: var(--c-text-light-2);
-} */
-
-.VPNavBarSearch {
-  display: flex;
-  align-items: center;
-  padding-left: 16px;
-}
-
-.DocSearch-MagnifierLabel {
-  margin: 16px;
-  color: var(--c-brand-light);
-  stroke-width: 2px;
-}
-
-.DocSearch-Input {
-  appearance: none;
-  background: #58565636;
-  border: solid 1px var(--c-brand-light);
-  color: var(--docsearch-text-color);
-  flex: 1;
-  font: inherit;
-  font-size: 1.2em;
-  height: 100%;
-  outline: none;
-  padding: 0 0 0 8px;
-  width: 80%;
-  margin: 8px;
-  padding: 8px;
-  border-radius: 6px;
-}
-
-.dark .DocSearch-Input {
-  color: var(--vp-c-text-1);
-  /* background-color: var(--vp-c-bg); */
-}
-
-.VPPluginSearch-modal-back {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #545454b3;
-  position: fixed;
-  z-index: 65;
-}
-
-.dark .VPPluginSearch-modal {
-  background-color: #242424;
-}
-
-.VPPluginSearch-modal {
-  background-color: #f9f9f9;
-  border-radius: 6px;
-  box-shadow: none;
-  flex-direction: column;
-  margin: 80px auto auto;
-  max-width: 560px;
-  position: relative;
-  /* box-shadow: inset 1px 1px 0 0 hsla(0, 0%, 100%, 0.5), 0 3px 8px 0 #555a64; */
-}
-
-.DocSearch-Button-Keys {
-  display: flex;
-  min-width: calc(40px + 0.8em);
-}
-
-@media (min-width: 768px) {
-  .DocSearch-Button .DocSearch-Button-Key {
-    display: inline-block;
+  
+  .VPPluginSearch-flex-logo{
+    width: 80px;
+    margin-left: calc(100% - 90px);
+    padding-bottom: 10px;
   }
-}
 
-@media (max-width: 768px) {
+  .VPPluginSearch-search-list {
+    padding: 1rem;
+    max-height: calc(100vh - 230px);
+    overflow-x: auto;
+  }
+
+  .VPPluginSearch-search-item-icon {
+    font-family: none;
+    align-self: center;
+    padding: 0 1rem 0 0;
+    font-size: x-large;
+  }
+
+  .VPPluginSearch-search-list > div {
+    color: var(--vp-c-brand-dark);
+    font-weight: bold;
+  }
+
+  .VPPluginSearch-search-item {
+    padding: 0.25rem 1rem;
+    margin: 8px 0 0 0;
+    border: solid 1px;
+    border-radius: 6px;
+    display: flex;
+
+    border-color: var(--vp-custom-block-details-border);
+    color: var(--vp-custom-block-details-text);
+    background-color: var(--vp-custom-block-details-bg);
+  }
+
+  .VPPluginSearch-search-item p {
+    margin: 0px;
+    font-size: smaller;
+    color: var(--c-text-light-3);
+  }
+
+  a.link-focused .VPPluginSearch-search-item,
+  .VPPluginSearch-search-item:hover {
+    color: #fff;
+    background: var(--vp-local-search-highlight-bg);
+  }
+
+  a.link-focused .VPPluginSearch-search-item,
+  .VPPluginSearch-search-item:hover > p {
+    color: #fff;
+  }
+
+  /* .dark .search-item > p {
+    color: var(--c-text-light-2);
+  } */
+
+  .VPNavBarSearch {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+  }
+
+  .DocSearch-MagnifierLabel {
+    margin: 16px;
+    color: var(--c-brand-light);
+    stroke-width: 2px;
+  }
+
+  .DocSearch-Input {
+    appearance: none;
+    background: #58565636;
+    border: solid 1px var(--c-brand-light);
+    color: var(--docsearch-text-color);
+    flex: 1;
+    font: inherit;
+    font-size: 1.2em;
+    height: 100%;
+    outline: none;
+    padding: 0 0 0 8px;
+    width: 80%;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 6px;
+  }
+
+  .dark .DocSearch-Input {
+    color: var(--vp-c-text-1);
+  }
+
+  .VPPluginSearch-modal-back {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #545454b3;
+    position: fixed;
+    z-index: 65;
+  }
+
+  .dark .VPPluginSearch-modal {
+    background-color: #242424;
+  }
+
   .VPPluginSearch-modal {
-    max-width: 100%;
-    border-radius: 0px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    flex-direction: column;
+    margin: 20px auto auto;
+    max-width: 560px;
+    position: relative;
+    box-shadow: inset 1px 1px 0 0 hsla(0, 0%, 100%, 0.5), 0 3px 8px 0 #555a64;
+    overflow: auto;
   }
-}
 
-.dark .DocSearch-Form {
-  background-color: var(--vt-c-bg-mute);
-}
-.DocSearch-Form {
-  background-color: #fff;
-  border: 1px solid var(--vt-c-brand);
-  padding: 6px;
-}
-.DocSearch-Form {
-  align-items: center;
-  background: var(--docsearch-searchbox-focus-background);
-  border-radius: 4px;
-  box-shadow: var(--docsearch-searchbox-shadow);
-  display: flex;
-  height: var(--docsearch-searchbox-height);
-  margin: 0;
-  padding: 0 var(--docsearch-spacing);
-  position: relative;
-  width: 100%;
-}
-.DocSearch-Container,
-.DocSearch-Container * {
-  box-sizing: border-box;
-}
+  .DocSearch-Button-Keys {
+    display: flex;
+    min-width: calc(40px + 0.8em);
+  }
 
-.DocSearch-Button .DocSearch-Button-Key {
-  margin-top: 2px;
-  border: 1px solid var(--vt-c-divider);
-  border-right: none;
-  border-radius: 4px 0 0 4px;
-  display: none;
-  padding-left: 6px;
-  height: 22px;
-  line-height: 22px;
-  transition: color 0.5s, border-color 0.5s;
-  min-width: 0;
-}
-.DocSearch-Button-Key {
-  font-size: 12px;
-  font-weight: 500;
-  height: 20px;
-  margin: 0;
-  width: auto;
-  color: var(--vt-c-text-3);
-  transition: color 0.5s;
-  display: inline-block;
-  padding: 0 1px;
-}
-.DocSearch-Button-Key {
-  align-items: center;
-  background: var(--c-brand-light);
-  border-radius: 3px;
-  box-shadow: var(--c-brand);
-  color: var(--docsearch-muted-color);
-  display: flex;
-  height: 18px;
-  justify-content: center;
-  margin-right: 0.4em;
-  padding-bottom: 2px;
-  position: relative;
-  top: -1px;
-  width: 20px;
-}
+  @media (min-width: 768px) {
+    .DocSearch-Button .DocSearch-Button-Key {
+      display: inline-block;
+    }
+  }
 
-body.dark .DocSearch-Button:hover {
-  box-shadow: none;
-}
+  @media (max-width: 768px) {
+    .VPPluginSearch-modal {
+      max-width: 80%;
+    }
+  }
 
-.DocSearch {
-  --docsearch-primary-color: var(--vt-c-brand);
-  --docsearch-highlight-color: var(--docsearch-primary-color);
-  --docsearch-text-color: var(--vt-c-text-1);
-  --docsearch-muted-color: #ebebeb99;
-  --docsearch-searchbox-shadow: none;
-  --docsearch-searchbox-focus-background: transparent;
-  --docsearch-key-gradient: transparent;
-  --docsearch-key-shadow: none;
-  --docsearch-modal-background: var(--vt-c-bg-soft);
-  --docsearch-footer-background: var(--vt-c-bg);
-}
-
-.dark .DocSearch {
-  --docsearch-modal-shadow: none;
-  --docsearch-footer-shadow: none;
-  --docsearch-logo-color: #ebebeb99;
-  --docsearch-hit-background: #2f2f2f;
-  --docsearch-hit-color: #ebebeb99;
-  --docsearch-hit-shadow: none;
-}
-
-.dark .DocSearch-Footer {
-  border-top: 1px solid var(--vt-c-divider);
-}
-
-.DocSearch-Form {
-  background-color: white;
-  border: 1px solid var(--vt-c-brand);
-}
-
-.DocSearch-Button-Container {
-  align-items: center;
-  display: flex;
-}
-
-.DocSearch-Button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  width: 48px;
-  height: 55px;
-  background: transparent;
-  border: none;
-}
-
-.DocSearch-Button:hover {
-  background: transparent;
-}
-.DocSearch-Button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-.DocSearch-Button:focus:not(:focus-visible) {
-  outline: none !important;
-}
-
-@media (min-width: 768px) {
-  .DocSearch-Button {
-    justify-content: flex-start;
+  .dark .DocSearch-Form {
+    background-color: var(--vt-c-bg-mute);
+  }
+  .DocSearch-Form {
+    background-color: #fff;
+    border: 1px solid var(--vt-c-brand);
+    padding: 6px;
+  }
+  .DocSearch-Form {
+    align-items: center;
+    background: var(--docsearch-searchbox-focus-background);
+    border-radius: 4px;
+    box-shadow: var(--docsearch-searchbox-shadow);
+    display: flex;
+    height: var(--docsearch-searchbox-height);
+    margin: 0;
+    padding: 0 var(--docsearch-spacing);
+    position: relative;
     width: 100%;
   }
-}
-
-.DocSearch-MagnifierLabel {
-  color: var(--vp-c-brand-dark);
-}
-
-.DocSearch-Button .DocSearch-Search-Icon {
-  transition: color 0.5s;
-  fill: currentColor;
-  width: 18px;
-  height: 18px;
-  position: relative;
-}
-
-@media (min-width: 768px) {
-  .DocSearch-Button .DocSearch-Search-Icon {
-    top: 1px;
-    margin-right: 10px;
-    width: 15px;
-    height: 15px;
+  .DocSearch-Container,
+  .DocSearch-Container * {
+    box-sizing: border-box;
   }
-}
 
-.DocSearch-Button:hover .DocSearch-Search-Icon {
-  color: var(--vt-c-text-1);
-}
-
-.DocSearch-Button-Placeholder {
-  transition: color 0.5s;
-  font-size: 13px;
-  font-weight: 500;
-  color: #66666699;
-  display: none;
-  padding: 0 10px 0 0;
-}
-
-@media (min-width: 960px) {
-  .DocSearch-Button-Placeholder {
-    display: inline-block;
-  }
-}
-
-.DocSearch-Button:hover .DocSearch-Button-Placeholder {
-  color: var(--vt-c-text-1);
-}
-
-.DocSearch-Button .DocSearch-Button-Key {
-  margin-top: 2px;
-  border: 1px solid var(--vt-c-divider);
-  border-right: none;
-  border-radius: 4px 0 0 4px;
-  display: none;
-  padding-left: 6px;
-  height: 22px;
-  line-height: 22px;
-  transition: color 0.5s, border-color 0.5s;
-  min-width: 0;
-}
-
-.DocSearch-Button .DocSearch-Button-Key + .DocSearch-Button-Key {
-  border-right: 1px solid var(--vt-c-divider);
-  border-left: none;
-  border-radius: 0 4px 4px 0;
-  padding-left: 2px;
-  padding-right: 6px;
-}
-
-.DocSearch-Button:hover .DocSearch-Button-Key {
-  /* border-color: var(--vt-c-brand-light); */
-  color: var(--vt-c-brand-light);
-}
-
-@media (min-width: 768px) {
   .DocSearch-Button .DocSearch-Button-Key {
-    display: inline-block;
+    margin-top: 2px;
+    border: 1px solid var(--vt-c-divider);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    display: none;
+    padding-left: 6px;
+    height: 22px;
+    line-height: 22px;
+    transition: color 0.5s, border-color 0.5s;
+    min-width: 0;
   }
-}
+  .DocSearch-Button-Key {
+    font-size: 12px;
+    font-weight: 500;
+    height: 20px;
+    margin: 0;
+    width: auto;
+    color: var(--vt-c-text-3);
+    transition: color 0.5s;
+    display: inline-block;
+    padding: 0 1px;
+  }
+  .DocSearch-Button-Key {
+    align-items: center;
+    background: var(--c-brand-light);
+    border-radius: 3px;
+    box-shadow: var(--c-brand);
+    color: var(--docsearch-muted-color);
+    display: flex;
+    height: 18px;
+    justify-content: center;
+    margin-right: 0.4em;
+    padding-bottom: 2px;
+    position: relative;
+    top: -1px;
+    width: 20px;
+  }
 
-.DocSearch-Button-Key {
-  font-size: 12px;
-  font-weight: 500;
-  height: 20px;
-  margin: 0;
-  width: auto;
-  color: var(--vt-c-text-3);
-  transition: color 0.5s;
-  display: inline-block;
-  padding: 0 1px;
-}
+  body.dark .DocSearch-Button:hover {
+    box-shadow: none;
+  }
 
-.VPPluginSearch-search-group{
-  color: var(--vp-c-brand-1)
-}
+  .DocSearch {
+    --docsearch-primary-color: var(--vt-c-brand);
+    --docsearch-highlight-color: var(--docsearch-primary-color);
+    --docsearch-text-color: var(--vt-c-text-1);
+    --docsearch-muted-color: #ebebeb99;
+    --docsearch-searchbox-shadow: none;
+    --docsearch-searchbox-focus-background: transparent;
+    --docsearch-key-gradient: transparent;
+    --docsearch-key-shadow: none;
+    --docsearch-modal-background: var(--vt-c-bg-soft);
+    --docsearch-footer-background: var(--vt-c-bg);
+  }
+
+  .dark .DocSearch {
+    --docsearch-modal-shadow: none;
+    --docsearch-footer-shadow: none;
+    --docsearch-logo-color: #ebebeb99;
+    --docsearch-hit-background: #2f2f2f;
+    --docsearch-hit-color: #ebebeb99;
+    --docsearch-hit-shadow: none;
+  }
+
+  .dark .DocSearch-Footer {
+    border-top: 1px solid var(--vt-c-divider);
+  }
+
+  .DocSearch-Form {
+    background-color: white;
+    border: 1px solid var(--vt-c-brand);
+  }
+
+  .DocSearch-Button-Container {
+    align-items: center;
+    display: flex;
+  }
+
+  .DocSearch-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 48px;
+    height: 55px;
+    background: transparent;
+    border: none;
+  }
+
+  .DocSearch-Button:hover {
+    background: transparent;
+  }
+  .DocSearch-Button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+  }
+  .DocSearch-Button:focus:not(:focus-visible) {
+    outline: none !important;
+  }
+
+  @media (min-width: 768px) {
+    .DocSearch-Button {
+      justify-content: flex-start;
+      width: 100%;
+    }
+  }
+
+  .DocSearch-MagnifierLabel {
+    color: var(--vp-c-brand-dark);
+  }
+
+  .DocSearch-Button .DocSearch-Search-Icon {
+    transition: color 0.5s;
+    fill: currentColor;
+    width: 18px;
+    height: 18px;
+    position: relative;
+  }
+
+  @media (min-width: 768px) {
+    .DocSearch-Button .DocSearch-Search-Icon {
+      top: 1px;
+      margin-right: 10px;
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  .DocSearch-Button:hover .DocSearch-Search-Icon {
+    color: var(--vt-c-text-1);
+  }
+
+  .DocSearch-Button-Placeholder {
+    transition: color 0.5s;
+    font-size: 13px;
+    font-weight: 500;
+    color: #66666699;
+    display: none;
+    padding: 0 10px 0 0;
+  }
+
+  @media (min-width: 960px) {
+    .DocSearch-Button-Placeholder {
+      display: inline-block;
+    }
+  }
+
+  .DocSearch-Button:hover .DocSearch-Button-Placeholder {
+    color: var(--vt-c-text-1);
+  }
+
+  .DocSearch-Button .DocSearch-Button-Key {
+    margin-top: 2px;
+    border: 1px solid var(--vt-c-divider);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    display: none;
+    padding-left: 6px;
+    height: 22px;
+    line-height: 22px;
+    transition: color 0.5s, border-color 0.5s;
+    min-width: 0;
+  }
+
+  .DocSearch-Button .DocSearch-Button-Key + .DocSearch-Button-Key {
+    border-right: 1px solid var(--vt-c-divider);
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    padding-left: 2px;
+    padding-right: 6px;
+  }
+
+  .DocSearch-Button:hover .DocSearch-Button-Key {
+    /* border-color: var(--vt-c-brand-light); */
+    color: var(--vt-c-brand-light);
+  }
+
+  @media (min-width: 768px) {
+    .DocSearch-Button .DocSearch-Button-Key {
+      display: inline-block;
+    }
+  }
+
+  .DocSearch-Button-Key {
+    font-size: 12px;
+    font-weight: 500;
+    height: 20px;
+    margin: 0;
+    width: auto;
+    color: var(--vt-c-text-3);
+    transition: color 0.5s;
+    display: inline-block;
+    padding: 0 1px;
+  }
+
+  .VPPluginSearch-search-group{
+    color: var(--vp-c-brand-1)
+  }
+
+</style>
+
+<style>
+  
+  /* ---- SEPTIMA SEARCH STYLING ---- */
+  
+  .VPPluginSearch-modal {
+    box-shadow: inset 1px 0px 0 0 hsla(0, 0%, 100%, 0.5), 0 3px 86px 0 #555a64;
+    border-radius: 12px;
+  }
+
+  .VPPluginSearch-modal .septimasearch {
+    border: none;
+  }
+  
+  .VPPluginSearch-modal .septimasearch .ssSearchResult {
+    max-height: 420px;
+    overflow: auto;
+  }
+
+  .VPPluginSearch-modal .septimasearch li.result .ssResult {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .VPPluginSearch-modal .septimasearch .ssResult .ssResultImage {
+    flex: 0 0 auto;
+  }
+
+  .VPPluginSearch-modal .septimasearch .ssResult .ssResultTitle {
+    flex: 1 1 auto;
+  }
+  
 </style>
