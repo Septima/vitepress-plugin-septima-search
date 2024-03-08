@@ -68,9 +68,11 @@ const GroupBy = (array: any, func: Function) => {
   }, {});
 };
 
+let view: any
+
 const openSearch = () => {
   setTimeout(() => {
-    if (input.value) input.value.focus();
+    if (typeof view !== 'undefined') view.focus();
   }, 100);
   cleanSearch();
   open.value = true;
@@ -164,15 +166,16 @@ const initSearch = async () => {
  
     controller.addSearcher (examplesSearcher)
     
-    const view = new Septima.Search.DefaultView({
+    view = new Septima.Search.DefaultView({
     input: 'inputcontainer',
     controller: controller
   })
 
 }
 
-const selectHandler = (a, b, c) => {
-  console.log(a,b,c);
+const selectHandler = (result: any) => {
+  router.go(result.data.id)
+  open.value = false
 } 
 
 const groupedResults = computed(() => GroupBy(result.value, (x:any) =>
