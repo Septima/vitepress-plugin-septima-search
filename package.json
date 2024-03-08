@@ -1,17 +1,17 @@
 {
-  "name": "vitepress-plugin-search",
-  "version": "1.0.4-alpha.22",
+  "name": "vitepress-plugin-septima-search",
+  "version": "0.0.1",
   "description": "Provide local search to your documentation site.",
   "types": "./dist/types/src/index.d.ts",
   "files": [
     "dist"
   ],
-  "main": "./dist/vitepress-plugin-search.umd.js",
-  "module": "./dist/vitepress-plugin-search.es.mjs",
+  "main": "./dist/vitepress-plugin-septima-search.umd.js",
+  "module": "./dist/vitepress-plugin-septima-search.es.mjs",
   "exports": {
     ".": {
-      "import": "./dist/vitepress-plugin-search.es.mjs",
-      "require": "./dist/vitepress-plugin-search.umd.js"
+      "import": "./dist/vitepress-plugin-septima-search.es.mjs",
+      "require": "./dist/vitepress-plugin-septima-search.umd.js"
     },
     "./Search.vue": "./dist/Search.vue"
   },
@@ -26,19 +26,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emersonbottero/vitepress-plugin-search.git"
+    "url": "git+https://github.com/emersonbottero/vitepress-plugin-septima-search.git"
   },
   "keywords": [
     "vitepress",
     "search",
     "offline"
   ],
-  "author": "Emerson Bottero",
-  "license": "MIT",
+  "author": "Septima",
+  "license": "Closed",
   "bugs": {
-    "url": "https://github.com/emersonbottero/vitepress-plugin-search/issues"
+    "url": "https://github.com/septima/vitepress-plugin-septima-search/issues"
   },
-  "homepage": "https://github.com/emersonbottero/vitepress-plugin-search#readme",
+  "homepage": "https://github.com/septima/vitepress-plugin-septima-search#readme",
   "peerDependencies": {
     "flexsearch": "^0.7.31",
     "vitepress": "^1.0.0-rc.35",

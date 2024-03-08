@@ -12,11 +12,11 @@ module.exports = defineConfig({
           dest: "./",
         },
         {
-          src: "src/Search.vue",
+          src: "src/index",
           dest: "./",
         },
         {
-          src: "src/flex-logo.svg",
+          src: "src/Search.vue",
           dest: "./",
         },
       ],
@@ -28,8 +28,8 @@ module.exports = defineConfig({
       name: "SearchPlugin",
       fileName: (format: string) =>
         format == "es"
-          ? `vitepress-plugin-search.${format}.mjs`
-          : `vitepress-plugin-search.${format}.js`,
+          ? `vitepress-plugin-septima-search.${format}.mjs`
+          : `vitepress-plugin-septima-search.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

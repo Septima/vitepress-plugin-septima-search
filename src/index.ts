@@ -28,7 +28,7 @@ export function SearchPlugin(searchOptions?: Partial<Options>): Plugin {
   const resolvedVirtualModuleId = "\0" + virtualModuleId;
 
   return {
-    name: "vite-plugin-search",
+    name: "vite-plugin-septima-search",
     enforce: "pre",
     configResolved(resolvedConfig) {
       config = resolvedConfig;
@@ -36,7 +36,7 @@ export function SearchPlugin(searchOptions?: Partial<Options>): Plugin {
 
     config: () => ({
       resolve: {
-        alias: { "./VPNavBarSearch.vue": "vitepress-plugin-search/Search.vue" },
+        alias: { "./VPNavBarSearch.vue": "vitepress-plugin-septima-search/Search.vue" },
       },
     }),
 

@@ -1,11 +1,11 @@
 {
-  "name": "playground",
+  "name": "vite-plugin-septima-search-demo",
   "version": "1.0.0",
-  "description": "vite-plugin-search playground",
+  "description": "vite-plugin-septima-search demo page",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "index": "node ./node_modules/vitepress-plugin-search/src/index.js",
+    "index": "node ./node_modules/vitepress-plugin-septima-search/src/index.js",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "vite": "4",
-    "vitepress-plugin-search": "link:.."
+    "vitepress-plugin-septima-search": "link:.."
   }
 }

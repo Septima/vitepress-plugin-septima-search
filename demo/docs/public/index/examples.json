@@ -1,0 +1,1276 @@
+[
+  {
+    "type": "example",
+    "id": "/examples/animate1.html",
+    "title": "Animeret rute",
+    "description": "Vis en rute animeret, når den tilføjes til kortet. Den tid, det tager at vise ruten, kan angives direkte i konfigurationen eller ud fra en værdi i data",
+    "name": "animate1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/arcgisrest2.html",
+    "title": "ArcGIS REST service",
+    "description": "Vis data fra et specifik lag fra en ArcGIS REST service i Danmark",
+    "name": "arcgisrest2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/chart1.html",
+    "title": "Graf",
+    "description": "Få vist en graf med data. Data kan for eksempel komme fra egen service eller fra en offentlig tjeneste. Graferne er responsive, så de automatisk tilpasser sig den side, de bliver sat ind på.",
+    "name": "chart1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/chart12.html",
+    "title": "Graf v4",
+    "description": "Brug Septima Widget til at vise data som grafer. Grafer kan vises på forskellige former afhængig af data. Denne opsætning benytter ChartJS version 4. For at benytte denne version, angives <code>ChartJSVersion</code> i konfigurationen.",
+    "name": "chart12"
+  },
+  {
+    "type": "example",
+    "id": "/examples/chart2.html",
+    "title": "Cirkeldiagram",
+    "description": "Brug Septima Widget til at vise data som grafer. Grafer kan vises på forskellige former afhængig af data.",
+    "name": "chart2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/chart3.html",
+    "title": "Stakket diagram",
+    "description": "Grafer med Septima Widget kan vises på mange forskellige former afhængig af data.",
+    "name": "chart3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/chart8.html",
+    "title": "Søjlediagram med labels",
+    "description": "Brug plugin'et 'chartjs-plugin-datalabels' til at vise labels i graferne",
+    "name": "chart8"
+  },
+  {
+    "type": "example",
+    "id": "/examples/cluster1.html",
+    "title": "Cluster",
+    "description": "Med clustering af mange data i kortet kan man opnå en bedre formidling",
+    "name": "cluster"
+  },
+  {
+    "type": "example",
+    "id": "/examples/cluster4.html",
+    "title": "Cluster med zoombegrænsning",
+    "description": "Når der zoomes langt ind i kortet, skifter cluster til almindelig punktvisning",
+    "name": "cluster4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/computed1.html",
+    "title": "Supplerende data",
+    "description": "Brug computedProperties til at tilføje supplerende attributter på data ud fra eksisterende attributter. Dette kan f.eks. bruges til nemt at definere kategorier,der skal bruges flere steder.",
+    "name": "computed1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict1.html",
+    "title": "Konfliktsøgning uden kort",
+    "description": "Udfør en konfliktsøgning uden kort. For eksempel med udgangspunkt i et søgefelt, men det kunne også være ved brug af brugerens aktuelle position.",
+    "name": "nomap2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict10.html",
+    "title": "Konfliktsøgning ud fra et tegnet område",
+    "description": "Lad brugeren tegne et område i kortet og lav en konfliktsøgning på det tegnede areal. Maksimalt 10 hits vises.",
+    "name": "conflict10"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict12.html",
+    "title": "Konfliktsøgning mod ArcGIS Server",
+    "description": "Udfør en konfliktsøgning ved at vælge en adresse. Konflitsøgningen foregår direkte i ArcGIS via en REST service.",
+    "name": "conflict12"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict13.html",
+    "title": "Konfliktsøgning ud fra klik i kortet",
+    "description": "Konfliktsøgningen sker, når der klikkes i kortet.",
+    "name": "conflict13"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict14.html",
+    "title": "Konfliktsøgning med zoom",
+    "description": "Når brugeren vælger noget via søgefeltet, foretages der en konfliktsøgning. Hvis man rammer noget via konfliktsøgningen, zoomes der til objektet i kortet. Dette kan f.eks. bruges til <strong>Find mit valgsted</strong> eller <strong>Find min skole</strong>.",
+    "name": "conflict14"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict16.html",
+    "title": "Isokroner",
+    "description": "Når man klikker i kortet eller søger efter en adresse, beregnes der hvor langt man kan nå fra dette punkt. Isokronerne vises i kortet.<br/>Dette er gjort i Widget ved at benytte konfliktsøgnings funktionen, der kan bruges til mange forskellige ting.",
+    "name": "conflict16"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict17.html",
+    "title": "Konfliktsøgning med overskrifter",
+    "description": "Når brugeren vælger noget via søgefeltet, foretages der en konfliktsøgning. Hvis man rammer noget via konfliktsøgningen, zoomes der til objektet i kortet. Dette kan f.eks. bruges til <strong>Find mit valgsted</strong> eller <strong>Find min skole</strong>.",
+    "name": "conflict17"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict18.html",
+    "title": "Hvad gælder for mig",
+    "description": "Find hvilken lokalplan der gælder for en given adresse uden brug af kort.",
+    "name": "conflict18"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict19.html",
+    "title": "Konfliktsøgning uden geometri",
+    "description": "Benyt attributter på det der er søgt med til at foretage konfliktsøgningen ud fra. Det kan f.eks. være et ID eller en anden værdi.",
+    "name": "conflict19"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict23.html",
+    "title": "Tænd lag ved konfliktsøgning",
+    "description": "Et relateret lag tændes (hvis det er slukket) når konfliktsøgningen finder noget på et target. Derudover aktiveres konfliktsøgningen med 'mapclick' kun når det relaterede lag er tændt",
+    "name": "conflict23"
+  },
+  {
+    "type": "example",
+    "id": "/examples/conflict3.html",
+    "title": "Konfliktsøgning ud fra en adresse",
+    "description": "Udfør en konfliktsøgning ved at vælge en adresse",
+    "name": "conflict3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/data1.html",
+    "title": "JSON data",
+    "description": "Tilføj features fra et hvilket som helst dataformat til kortet. I dette eksempel hentes data fra en service, der leverer x og y som attributter",
+    "name": "data1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/data20.html",
+    "title": "Data fra WKT",
+    "description": "Hent data fra et hvilken som helst datastruktur hvor geometrien er defineret som WKT",
+    "name": "data20"
+  },
+  {
+    "type": "example",
+    "id": "/examples/data21.html",
+    "title": "Data fra GeoJSON streng",
+    "description": "Hent data fra et hvilken som helst datastruktur hvor geometrien er defineret som GeoJSON men som tekst i stedet for et objekt.",
+    "name": "data21"
+  },
+  {
+    "type": "example",
+    "id": "/examples/dawa1.html",
+    "title": "Adresser i kortet",
+    "description": "Få vist informationer hentet direkte fra Danmarks Adresser",
+    "name": "dawa1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/delay1.html",
+    "title": "Forsinket visning",
+    "description": "Tilføj objekter til kortet med en lille forsinkelse",
+    "name": "delay1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/directlink1.html",
+    "title": "Direkte link i kort",
+    "description": "Få vist et kort med objekter. Når brugeren klikker på et af objekterne, åbnes den tilhørende hjemmeside.",
+    "name": "directlink1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/directlink3.html",
+    "title": "Åbn link ved klik i kort",
+    "description": "Når man klikker på en lokalplan i kortet, åbnes plandokumentet for den pågældende plan med det samme. Denne Widget er konfigureret til at åbne i et nyt vindue. Det betyder dog, at det kan være, at browseren blokerer for popups.",
+    "name": "directlink3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/draw3.html",
+    "title": "Tegn i kortet",
+    "description": "Tilføj punkter, linjer eller flader til kortet. Brugeren vælger selv hvilken type, der skal tegnes. Dette kan for eksempel bruges i kombination med konfliktsøgning eller sammen med formular funktionaliteten.",
+    "name": "draw3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/draw4.html",
+    "title": "Tegn flere features i kortet",
+    "description": "Tilføj punkter, linjer eller flader til kortet. Brugeren vælger selv hvilken type, der skal tegnes.",
+    "name": "draw4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/filter1.html",
+    "title": "Filter",
+    "description": "Mulighed for at filtrere hvilke data, der vises i kortet. Det kan både konfigureres til blot at vise en delmængde af data fra start samt at give brugeren mulighed for selv at vælge kriterier.",
+    "name": "filter1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/filter10.html",
+    "title": "Kombineret filter",
+    "description": "Avanceret filtrering på baggrund af flere værdier fra data. Filteret er placeret ved siden af kortet for at skabe et bedre overblik over hvilke kriterier, der er angivet. Filteret er stylet, så det passer til ikonerne i kortet.",
+    "name": "filter10"
+  },
+  {
+    "type": "example",
+    "id": "/examples/filter14.html",
+    "title": "Datofilter",
+    "description": "Vis kun data, der er gældende for en given periode. Brugeren kan selv ændre hvilken periode, der skal vises data for.",
+    "name": "filter14"
+  },
+  {
+    "type": "example",
+    "id": "/examples/filter17.html",
+    "title": "Multiselect filter",
+    "description": "Filtrering på baggrund af værdier fra data. Filteret kan for eksempel bruges som en lagvælger. Det er muligt at vise/skjule alle.",
+    "name": "filter17"
+  },
+  {
+    "type": "example",
+    "id": "/examples/flatgeobuf1.html",
+    "title": "FlatGeobuf",
+    "description": "Mange formater understøttes i Septima Widget, herunder FlatGeobuf.",
+    "name": "flatgeobuf1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/flatgeobuf2.html",
+    "title": "Streaming af FlatGeobuf fil",
+    "description": "Data hentes fra en statisk fil på flere Gb. Kun relevate data hentes når de skal bruges og derfor er det hurtigt.",
+    "name": "flatgeobuf2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/flow1.html",
+    "title": "Hvor flyder vandet hen",
+    "description": "Brug Septimas flow service, til at se hvilken vej en væske flyder. Det kan f.eks. bruges til at se hvor, der skal sættes ind hvis en gylletank lækker eller en tankvogn forulykker.<br/><br/>Klik i koretet",
+    "name": "flow1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/form2.html",
+    "title": "Formular",
+    "description": "Brug Septima Widget som formular til at indsamle oplysninger fra brugeren. Det kunne for eksempel være tilmeldinger eller spørgeskemaundersøgelser.",
+    "name": "form2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/form3.html",
+    "title": "Formular med kort",
+    "description": "Brug Septima Widget som formular til at indsamle oplysninger fra brugeren - herunder det, som er tegnet i kortet.",
+    "name": "form3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/form4.html",
+    "title": "Formular med løsrevet kort",
+    "description": "Brug Septima Widget som formular til at indsamle oplysninger fra brugeren - herunder det, som er tegnet i kortet. Kortet kan placeres på siden efter behov",
+    "name": "form4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/fullextent1.html",
+    "title": "Zoom til startudsnit",
+    "description": "Giv brugeren mulighed for at zoome til startudsnittet for kortet.",
+    "name": "fullextent"
+  },
+  {
+    "type": "example",
+    "id": "/examples/fullscreen1.html",
+    "title": "Fuldskærmskort",
+    "description": "Giv brugeren mulighed for at få kortet vist, så det dækker hele skærmen. Fuldskærmskortet aktiveres ved, at brugeren klikker på knappen under zoom ind/ud",
+    "name": "fullscreen1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/gpx1.html",
+    "title": "GPX",
+    "description": "Vis data direkte fra en GPX fil",
+    "name": "gpx1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/gpx2.html",
+    "title": "Tour de Storebælt",
+    "description": "Skal du med",
+    "name": "gpx2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/gsv1.html",
+    "title": "Google Street View",
+    "description": "Få vist Google Street View for et givent punkt i kortet. Klik i kortet for at ændre positionen. Når der navigeres i Street View, følger markeringen i kortet med.",
+    "name": "gsv1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/html4.html",
+    "title": "Få vist HTML fra en template",
+    "description": "Indholdet til HTML'en kan hentes fra en fil, der fungerer som en template",
+    "name": "html4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info1.html",
+    "title": "Info",
+    "description": "Med enkel infovisning af data i kortet kan man opnå en bedre formidling",
+    "name": "info4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info11.html",
+    "title": "Info med statisk boks",
+    "description": "Infoboksen kan vises på flere måder. Her er et eksempel, hvor infoboksen er fast i øverste venstre hjørne. Den kan også placeres som en flydende boks i kortet eller helt afkoblet fra kortet.",
+    "name": "info11"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info13.html",
+    "title": "Info ved brug af template",
+    "description": "Indholdet i infoboksen er styret af data samt en template, der kan ligge ved siden af data.",
+    "name": "info13"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info14.html",
+    "title": "Info hentet fra service",
+    "description": "I de tilfælde, at det ikke er muligt at hente alle features ud i browseren, er det muligt at få info fra en service i stedet.",
+    "name": "info14"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info17.html",
+    "title": "Zoom til valgte",
+    "description": "Info kan konfigureres til at zoome ind til det valgte objekt i kortet",
+    "name": "info17"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info18.html",
+    "title": "Info hentet fra flere services",
+    "description": "I de tilfælde, at det ikke er muligt at hente alle features ud i browseren, er det muligt at få info fra en eller flere services i stedet.",
+    "name": "info18"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info21.html",
+    "title": "Scroll til infoboks",
+    "description": "Hvis infoboksen f.eks. er placeret under eller over kortet, er det muligt at få browseren til at scrolle til boksen, når objektet vælges i kortet. Herved gøres brugeren opmærksom på at der vises noget information et andet sted på siden",
+    "name": "info21"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info22.html",
+    "title": "Erhvervsområder fra plandata.dk",
+    "description": "Hent data direkte fra plandata.dk. Men sørg for at begrænse antallet af objekter, da det kan medføre, at siden bliver langsom",
+    "name": "info22"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info23.html",
+    "title": "Erhvervsområder fra plandata.dk med WMS",
+    "description": "Hent data direkte fra plandata.dk. I dette eksempel lægges vektordata oven på et WMS-lag. Herved vises WMS'en hurtigt, men vi kan godt vente på, at vektorlaget er lidt længere tid om at loade. Dette er specielt anvendeligt, hvis vi har mange data, eller man gerne vil have kartografien fra en WMS-server.",
+    "name": "info23"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info24.html",
+    "title": "Erhvervsområder fra plandata.dk med WMS",
+    "description": "Hent data direkte fra plandata.dk. I dette eksempel hentes data først, når der klikkes i kortet.",
+    "name": "info24"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info28.html",
+    "title": "Jordstykker",
+    "description": "Info på jordstykker",
+    "name": "info28"
+  },
+  {
+    "type": "example",
+    "id": "/examples/info33.html",
+    "title": "Info med foruddefineret template",
+    "description": "Benyt en af de foruddefinerede templates til f.eks. info popup. Brug f.eks. 'namedtemplate': '#popup001' som i eksemplet her. <br/>Det er muligt at angive hvilke attributter der skal med, men det er også muligt at angive dem, der ikke skal med. Hvis både 'excludeAttr' og 'includeAttr' udelades kommer det hele med. <br/>Hvis ikke 'title' angives, vælges den første attribut som overskrift. <br/>Som det ses af eksemplet, er det muligt at håmndtere links specielt. Derudover er det stadig muligt at håndtere sammensatte værdier.",
+    "name": "info33"
+  },
+  {
+    "type": "example",
+    "id": "/examples/kom1.html",
+    "title": "Join data",
+    "description": "Berig data fra en service med lokale data. Dette kan f.eks. bruges til at tilføje informationer fra kodelister eller blot at berige en ekstern service, som man ikke selv har kontrol over. Derudover kan give en højere grad af genbrug ved at de samme data bruges i forskelige sammenhæng.",
+    "name": "kom"
+  },
+  {
+    "type": "example",
+    "id": "/examples/kommuneplan1.html",
+    "title": "Kommuneplan",
+    "description": "Få vist oplysninger om en given kommuneplanramme hentet direkte fra Plandata.dk med både tekst og kort. Angiv blot planID på din widget, og alt andet sker automatisk. Brug den samme widget til at vise en hvilken som helst kommunplanramme. Herved undgår du at skulle taste oplysningerne to gange, og det er nemt for webredaktøren at tilføje oplysinger om en kommuneplanramme til jeres hjemmesiden. Siden kan kaldes med for eksempel <a href='?planid=9633559'><code>?planid=9633559</code></a>",
+    "name": "kommuneplan"
+  },
+  {
+    "type": "example",
+    "id": "/examples/kommuneplan7.html",
+    "title": "Kommuneplan speciel",
+    "description": "Få vist oplysninger om en given kommuneplanramme hentet direkte fra Plandata.dk med kort og en beskrivende liste. Teksten er handicaptilgængelig og kan læses op af f.eks. en skærmlæser. Angiv planID på din widget, og alt andet sker automatisk. Brug den samme widget til at vise en hvilken som helst kommunplanramme. Herved undgår du at skulle taste oplysningerne to gange, og det er nemt for webredaktøren at tilføje oplysinger om en kommuneplanramme til jeres hjemmesiden. Siden kan kaldes med for eksempel <a href='?planid=9633559'><code>?planid=9633559</code></a>",
+    "name": "kommuneplan7"
+  },
+  {
+    "type": "example",
+    "id": "/examples/kommuneplan8.html",
+    "title": "Kommuneplan liste",
+    "description": "Vis en liste med kommuneplaner og få et link til visning af yderligere oplysinger",
+    "name": "kommuneplan8"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layer1.html",
+    "title": "Baggrundskort",
+    "description": "Septima Widget indeholder en række præ-konfigurerede baggrundskort. Dette gør det nemt at tilføje lige det baggrundskort, man har brug for",
+    "name": "layer"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layer3.html",
+    "title": "Relationer mellem lag",
+    "description": "Tænd automatisk for et lag når et andet lag tændes. Det kan f.eks. bruges til at vise gule matrikelskel på ortofoto og røde på et almindeligt baggrundskort, uden brugeren selv skal vælge til og fra.",
+    "name": "layer3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layer6.html",
+    "title": "Lagkonfigration fra fil",
+    "description": "Hent konfigurationen til laget fra en fil. Det gør det nemt at konfigurere lag på tværs af konfigurationer. På tilsvarende måde er det også muligt at hente konfigurationen til 'view'.",
+    "name": "layer6"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layer7.html",
+    "title": "Lagenes rækkefølge",
+    "description": "Angiv hvilke lag, der skal tegnes øverst i kortet uafhængigt af lagvælgeren. I dette eksempel tegnes det Grå Skærmkort oven på Ortofoto fordi Ortofoto har et mindre zIndex",
+    "name": "layer7"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layer8.html",
+    "title": "Fallback",
+    "description": "Hvis et lag er kritisk for løsningen, er det muligt at angive et fallback-lag, der benyttes hvis det valgte lag fejler.",
+    "name": "layer8"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layer9.html",
+    "title": "Ortofoto med maske",
+    "description": "Få et flottere oversigtskort med ortofoto når hele landet vises ved at benytte Septimas maskeservice. Bemærk at denne service er et tilkøb. Kontakt os for at få adgang til servicen.",
+    "name": "layer9"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch1.html",
+    "title": "Lagvælger",
+    "description": "Med lagkontrollen er det muligt for brugeren at tænde/slukke for de enkelte lag i kortet samt at se signaturen for de enkelte lag.",
+    "name": "layerswitch"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch15.html",
+    "title": "Vis udvalgte lag i lagvælgeren",
+    "description": "Det er muligt at vise udvalgte lag i lagvælgeren. De kan både vælges til eller fra i konfigurationen",
+    "name": "layerswitch15"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch16.html",
+    "title": "Lagvælgeren som dropdown",
+    "description": "Vis lagvælgeren som en dropdown, så den ikke fylder så meget. Teksten på knappen kan enten være en fast tekst, som angives i konfigurationen, eller en dynamisk tekst, der er afhængig af antallet af valgte lag",
+    "name": "layerswitch16"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch2.html",
+    "title": "Signaturliste",
+    "description": "Med lagkontrollen er det muligt at vise signaturen for de enkelte lag uden at give mulighed for at tænde og slukke de enkelte lag.",
+    "name": "layerswitch2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch20.html",
+    "title": "Lagvælger som knap",
+    "description": "Vis lagvælgeren ved at aktivere den via en knap. Herved kan en lagvælger, der fylder meget, skjules fra start og kun hentes frem hvis der er behov for det.",
+    "name": "layerswitch20"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch21.html",
+    "title": "Lagvælger med grupper",
+    "description": "Hvis der er mange lag, er det rart, hvis der er en form for gruppering af lagene i lagvælgeren. De enkelte grupper kan foldes sammen. Derudover er det muligt at få vist antallet af lag samt antallet af tændte lag i gruppen. Dette kan styres pr. gruppe.",
+    "name": "layerswitch21"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch28.html",
+    "title": "Vis symboler i lagvælger",
+    "description": "Det er i Septima Widget muligt at benytte symboler i stedet for ikoner i kortet. Det er muligt at bruge 'circle', 'star' mv. Når signaturen vises i lagvælgeren, vises de tilsvarende symboler også i lagvælgeren.<br/>Det er muligt at ændre symbolernes kantfarve og udfyldningsfarve. Derudover er det muligt at angive størrelsen samt rotere symbolet.",
+    "name": "layerswitch28"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch29.html",
+    "title": "GetLegendGraphic i lagvælgeren",
+    "description": "Hent signaturen direkte fra kilden via GetLegendGraphic eller ved blot at indsætte et billede",
+    "name": "layerswitch29"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch30.html",
+    "title": "Transition",
+    "description": "Fade baggrundskort ind og ud når de hhv. vises og skjules. Dette giver en glidende effekt, men er langt fra relevant i alle situationer",
+    "name": "layerswitch30"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch31.html",
+    "title": "Lagvælger med overskrift",
+    "description": "Vis en overskrift over lagvælgeren og giv brugeren mulighed for at folde den sammen",
+    "name": "layerswitch31"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch32.html",
+    "title": "Fuld kontrol over lagvælgeren",
+    "description": "Bestem selv hvad der skal stå i lagvælgeren ved at indsætte din egen HTML.",
+    "name": "layerswitch32"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layerswitch37.html",
+    "title": "Signaturforklaring",
+    "description": "Definer en signaturforklaring med mange signature.",
+    "name": "layerswitch37"
+  },
+  {
+    "type": "example",
+    "id": "/examples/layertoggle1.html",
+    "title": "Skift baggrundskort",
+    "description": "Skift mellem baggrundskort i stil med Google Maps",
+    "name": "layertoggle1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/loadingstrategy1.html",
+    "title": "Lokalplaner fra plandata.dk ud fra BBOX",
+    "description": "Benyt loadingstrategy til at hente vektordata direkte fra plandata.dk. Herved kan samtlige vedtagede lokalplaner findes i kortet som vektordata",
+    "name": "loadingstrategy1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/loadingstrategy2.html",
+    "title": "Jordstykker fra Datafordeleren ud fra BBOX",
+    "description": "Benyt loadingstrategy til at hente vektordata direkte fra datafordeleren.dk. Herved kan samtlige jordstykker findes i kortet som vektordata",
+    "name": "loadingstrategy2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/locate1.html",
+    "title": "Zoom til objekt",
+    "description": "Få en widget til at være zoomet ind til et specifikt objekt i kortet ved blot at angive en nøgle til objektet. Herved kan den samme widget bruges på flere sider til at vise noget forskelligt.<br/>Det er også muligt at angive id i URL'en <a href='?widget-key=H02026'><code>?widget-key=H02026</code></a>",
+    "name": "locate"
+  },
+  {
+    "type": "example",
+    "id": "/examples/locate12.html",
+    "title": "Zoom til lokalt objekt i kortet",
+    "description": "Start kortet ved at zoome ind til en specifik feature ud fra en URL-parameter",
+    "name": "locate12"
+  },
+  {
+    "type": "example",
+    "id": "/examples/locate13.html",
+    "title": "Zoom til en plan fra plandata.dk",
+    "description": "Start kortet ved at zoome ind til en specifik feature ud fra en URL-parameter. Kald for eksempel siden med <a href='?planid=3673514'>?planid=3673514</a>",
+    "name": "locate13"
+  },
+  {
+    "type": "example",
+    "id": "/examples/locate14.html",
+    "title": "Zoom til et adresseID",
+    "description": "Start kortet ved at zoome ind til en specifik adresse ud fra en URL-parameter",
+    "name": "locate14"
+  },
+  {
+    "type": "example",
+    "id": "/examples/locate16.html",
+    "title": "Zoom til en adresse",
+    "description": "Start kortet ved at zoome ind til en specifik adresse ud fra en URL-parameter. Samtidig skiftes sidens title, så det passer på den adresse, der er fundet",
+    "name": "locate16"
+  },
+  {
+    "type": "example",
+    "id": "/examples/locate17.html",
+    "title": "Zoom ud fra URL parameter",
+    "description": "Start kortet ved at zoome ind til en specifik position ud fra URL-parameter",
+    "name": "locate17"
+  },
+  {
+    "type": "example",
+    "id": "/examples/locate20.html",
+    "title": "Zoom til indtastet geometri",
+    "description": "Start kortet ved at zoome ind til en specifik position ud fra URL-parameter. Det er også muligt at indtaste en geometri og få den vist i kortet. Det kan være WKT, GeoJSON, en koordinat eller en BBOX",
+    "name": "locate20"
+  },
+  {
+    "type": "example",
+    "id": "/examples/locate8.html",
+    "title": "Zoom til objekt fra CartoDB",
+    "description": "Start kortet ved at zoome ind til en specifik feature ud fra en URL-parameter",
+    "name": "locate8"
+  },
+  {
+    "type": "example",
+    "id": "/examples/location1.html",
+    "title": "Aktuelle position",
+    "description": "Zoom ind til brugerens aktuelle position, når kortet vises. Kan for eksempel anvendes sammen med konfliksøgning og rutefunktionerne",
+    "name": "location"
+  },
+  {
+    "type": "example",
+    "id": "/examples/location2.html",
+    "title": "Zoom til aktuelle position med knap",
+    "description": "Zoom ind til brugerens aktuelle position, når brugeren trykker på knappen",
+    "name": "location2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/location6.html",
+    "title": "Aktuelle position i hele verdenen",
+    "description": "Zoom ind til brugerens aktuelle position, når kortet vises",
+    "name": "location6"
+  },
+  {
+    "type": "example",
+    "id": "/examples/map1.html",
+    "title": "Kort",
+    "description": "Enkel kortvisning med WMS og GeoJSON",
+    "name": "map1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/map11.html",
+    "title": "Simpelt kort",
+    "description": "Hvor skal kortet starte op. Angive et centerpunkt og et zoomniveau for hvad der skal vises. Herved ved du præcist hvor i kortet brugeren starter. Det er også muligt at angive et 'extent', så du er sikker på at alt, hvos brugeren skal se, også er vist. Der er fordele og ulemper ved begge metoder, så det er op til den enkelte anvendelse.",
+    "name": "map11"
+  },
+  {
+    "type": "example",
+    "id": "/examples/map2.html",
+    "title": "Data direkte i konfigurationen",
+    "description": "Data skrives direkte ind i konfigurationen og vises på kortet - uden brug af services",
+    "name": "map_data"
+  },
+  {
+    "type": "example",
+    "id": "/examples/map5.html",
+    "title": "Begrænset lagvisning",
+    "description": "Vis kun et lag inden for et givent kortudsnit",
+    "name": "map5"
+  },
+  {
+    "type": "example",
+    "id": "/examples/mapcontrols1.html",
+    "title": "Kortfunktioner",
+    "description": "Med mapcontrols er det muligt at styre, hvordan interaktionen i kortet skal være. Det er for eksempel muligt at disable zoom med musehjulet eller vise en målestok i kortet. Følgende navigationsfunktioner kan deaktiveres eller aktiveres: mouseWheelZoom, dragRotate, shiftDragZoom, doubleClickZoom, dragPan, pinchZoom, pinchRotate, keyboard og scaleline.",
+    "name": "mapcontrols1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/measure1.html",
+    "title": "Mål afstand og areal",
+    "description": "Mål hvor langt der er i kortet eller hvor stort et areal er ved at tegne",
+    "name": "measure1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/namedlayer1.html",
+    "title": "Prædefinerede lag",
+    "description": "Septima Widget indeholder en række prædefinerede lag (namedlayers), som gør det nemt at få et kort frem. Lagene i dette eksempel kommer alle fra services, der findes frit tilgængelige i Danmark.",
+    "name": "namedlayer1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/namedlayer4.html",
+    "title": "DMP datakatalog",
+    "description": "Benyt et ID på et datasæt fra DMPs datakatalog og få vist laget i Septima Widget som hvis du selv havde konfigureret det. Herved behøver man ikke bekymre sig om hvilke parametre, der skal bruges samt hvis en service ændre sig.",
+    "name": "namedlayer4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/nomap1.html",
+    "title": "Widget uden kort",
+    "description": "Med Septima Widget er det muligt at oprette widgets, der ikke indeholder kort, men alligevel bruge de bagvedliggende data.",
+    "name": "nomap"
+  },
+  {
+    "type": "example",
+    "id": "/examples/nomap3.html",
+    "title": "Find nærmeste uden kort",
+    "description": "Find de nærmeste børnehaver uden visning af kort. Der kan tages udgangspunkt i et søgefelt, men det kunne også være ved brug af brugerens aktuelle position.",
+    "name": "nomap3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/nomap4.html",
+    "title": "Filter uden kort",
+    "description": "Hvis en liste med oplysninger er lang, kan det godt være uoverskuelige at finde det, man søger. Med filtre kan brugeren nemt finde frem til det ønskede uden brug af kort.",
+    "name": "nomap4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/nomap6.html",
+    "title": "Find nærmeste uden kort",
+    "description": "Find de nærmeste børnehaver uden visning af kort. Der kan tages udgangspunkt i data angivet direkte i konfigurationen.",
+    "name": "nomap6"
+  },
+  {
+    "type": "example",
+    "id": "/examples/nomap7.html",
+    "title": "Find nærmeste uden kort ud fra adresse",
+    "description": "Find de nærmeste børnehaver uden visning af kort. Der tages udgangspunkt i en adresse fundet med 'locate'",
+    "name": "nomap7"
+  },
+  {
+    "type": "example",
+    "id": "/examples/oblique1.html",
+    "title": "Skråfoto",
+    "description": "Vis skråfoto for et vilkårligt sted i Danmark. Klik blot i kortet og der åbnes et nyt vindue, der viser skråfotos for dette sted",
+    "name": "oblique1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/overviewmap1.html",
+    "title": "Oversigskort afkoblet fra kortet",
+    "description": "Vis oversigtskortet ved siden eller under af kortet med detach",
+    "name": "overviewmap1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/overviewmap2.html",
+    "title": "Oversigskort",
+    "description": "Benyt egne lag i oversigtskortet. Det er muligt at benytte namedlayers",
+    "name": "overviewmap2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/poi1.html",
+    "title": "POI",
+    "description": "Vis points of interests fra Septimas store samling af interessepunkter. I dette eksempel vises samtlige biblioteker i Danmark",
+    "name": "poi1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/poi2.html",
+    "title": "POI performance",
+    "description": "Vis 10000 points of interests fra Septimas store samling af interessepunkter i kortet. I dette eksempel benyttes <code>'styleType': 'static'</code> hvorved vi kan opnå en bedre performance. Skriv til <a href='mailto:kontakt@septima.dk'>kontakt@septima.dk</a> hvis du vil høre mere om denne service.",
+    "name": "poi2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/poi3.html",
+    "title": "POI performance 2",
+    "description": "Vis 10000 points of interests fra Septimas store samling af interessepunkter i kortet. I dette eksempel benyttes <code>'styleType': 'semistatic'</code> hvorved vi kan opnå en bedre performance",
+    "name": "poi3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/poi4.html",
+    "title": "POI performance 3",
+    "description": "Vis points of interests fra Septimas store samling af interessepunkter i kortet. I dette eksempel benyttes <code>'loadingstrategy': 'bbox'</code> hvorved punkterne hentes inden for at aktuelle kortudsnit. Herved kan vi se de mange punkter for hele landet når man er zoomet ind og herved opnå den samme gode performance. Skriv til <a href='mailto:kontakt@septima.dk'>kontakt@septima.dk</a> hvis du vil høre mere om denne service.",
+    "name": "poi4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/prefilter1.html",
+    "title": "Filtrering",
+    "description": "Filtrering på data med <code>prefilter</code>, så det kun er udvalgte data, der vises i kortet og ikke alt hvad der leveres fra servicen.",
+    "name": "prefilter1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/print1.html",
+    "title": "Udskriv med en service",
+    "description": "Brug en service til at generere et PDF-dokument med.",
+    "name": "print1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/print2.html",
+    "title": "Udskriv kortet som PDF",
+    "description": "Med Septima Widget er det muligt at generere et PDF-dokument med det viste kortudsnit og lag direkte i browseren",
+    "name": "print2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/print6.html",
+    "title": "Udskriv som PNG",
+    "description": "Det er muligt at udskrive kortet som et billede",
+    "name": "print6"
+  },
+  {
+    "type": "example",
+    "id": "/examples/print7.html",
+    "title": "Kopier kortet til udklipsholder",
+    "description": "Brugeren kan nemt kopierre kortet som et billede til udklipsholderen. Herved er det muligt at sætte kortet ind i en rapport eller lignende.",
+    "name": "print7"
+  },
+  {
+    "type": "example",
+    "id": "/examples/profile4.html",
+    "title": "Højdeprofil med knap",
+    "description": "Vis højdeprofilen for en linje i kortet. Linjen tegnes ved at aktivere knappen",
+    "name": "profile4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/profile5.html",
+    "title": "Højdeprofil for VM ruten",
+    "description": "Vis højdeprofilen for den officielle rute brugt til VM i landevejscykling i 2011",
+    "name": "profile5"
+  },
+  {
+    "type": "example",
+    "id": "/examples/route1.html",
+    "title": "Find nærmeste",
+    "description": "Avanceret ruteberegning formidlet enkelt - søg en adresse, hvorefter afstanden til nærmeste pasningsmuligheder eller lignende beregnes og vises for brugeren",
+    "name": "route2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/route14.html",
+    "title": "Find nærmeste med lagvælger",
+    "description": "Brug Find Nærmeste sammen med lagvælgeren, så ruten kun vises for de data, der er vist i kortet.",
+    "name": "route14"
+  },
+  {
+    "type": "example",
+    "id": "/examples/route16.html",
+    "title": "Find nærmeste i luftlinjeafstand",
+    "description": "Hvis der ikke er brug for ruten, men blot vil vide hvad der er i nærheden, kan Find Nærmeste finde de nærmeste via luftlinjeafstanden.",
+    "name": "route16"
+  },
+  {
+    "type": "example",
+    "id": "/examples/routing1.html",
+    "title": "Ruteberegning",
+    "description": "Beregn ruter mellem to punkter i kortet. Det er muligt at klikke i kortet eller søge et punkt via søgefeltet",
+    "name": "routing1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/routing2.html",
+    "title": "Ruteberegning med transportform",
+    "description": "Beregn ruter mellem to punkter i kortet. Det er muligt at klikke i kortet eller søge et punkt via søgefeltet. Brugeren kan vælge om ruten skal foretages via gående, på cykel eller i bil.",
+    "name": "routing2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/routing3.html",
+    "title": "Ruteberegning med luftlinjeafstand",
+    "description": "Beregn ruter mellem to punkter i kortet. Det er muligt at klikke i kortet eller søge et punkt via søgefeltet. Brugeren kan skifte ruteprofil.",
+    "name": "routing3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/scaleline1.html",
+    "title": "Målepind",
+    "description": "Enkel kortvisning med målepind i kortet",
+    "name": "scaleline1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search1.html",
+    "title": "Søgning",
+    "description": "Tilføj et søgefelt til din hjemmeside. Mulighed for at søge i en række forskellige data, herunder officielle BBR-adresser, lokalplaner og meget mere. Knyt søgningen til et kort og zoom hen til det, du finder",
+    "name": "search1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search11.html",
+    "title": "Søg i GeoSearch",
+    "description": "Find alt hvad der kan søges i med Geosearch og få vist den rigtige geometri i kortet. Dog ikke adresser og stednavne, da de har deres egen driver.",
+    "name": "search11"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search13.html",
+    "title": "Søgemarkering hentes fra service",
+    "description": "Søg efter en adresse og få markeret ejendommen, der hører til adressen i kortet. Dette eksempel bruger DAWA samt adressesøger og Geonøgler fra Kortforsyningen til at finde geometrien. Men det kunne også være en anden service, der blev benyttet.",
+    "name": "search13"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search14.html",
+    "title": "Søg i S4",
+    "description": "Integration til Spatial Suite. Det gør det muligt at søge i de data, som du selv udstiller via S4.",
+    "name": "search14"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search15.html",
+    "title": "Søgemarkering hentes fra ruteservice",
+    "description": "Søg efter en adresse og få markeret ruten, der fører fra et bestemt punkt til adressen i kortet. Få vist en popup med f.eks. afstand og rejsetid",
+    "name": "search15"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search16.html",
+    "title": "Søg stednavn",
+    "description": "Søg efter et stednavn fra Kortforsyningens service. Søgningen kan begrænses til udvagte kommuner.",
+    "name": "search16"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search18.html",
+    "title": "Vis hvad der er valgt",
+    "description": "Søg i adresser og matrikler og få vist en boks hvad der er valgt. I boksen er det ligeledes muligt at fjerne markeringen i kortet. Søgefeltet er konfigureret til at der mindst skal tastes tre tegn før der søges.",
+    "name": "search18"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search19.html",
+    "title": "Søg i S3",
+    "description": "Konfigurationen foregår i Septima Search Server (S3) og kan benyttes på tværs af applikationer, herunder Septima Widget, QGIS, OneDoor mv.",
+    "name": "search19"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search20.html",
+    "title": "Vis hvad der er valgt (alternativ)",
+    "description": "Søg i adresser og matrikler og få vist det valgte direkte i søgefeltet. Herved er det nemt at forstå hvad der er valgt, men samtidigt er det mere besværligt hvis man vil søge videre.",
+    "name": "search20"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search21.html",
+    "title": "Tænd relateret lag",
+    "description": "Når man vælger et objekt fra søgefeltet, er det muligt at tænde et specifikt lag. Dette sikre at man får vist relevante data i kortet når der zoomes til et sted.",
+    "name": "search21"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search22.html",
+    "title": "Søgemarkering for vej hentes fra service",
+    "description": "Søg efter en vej og få markeret hele vejen og ikke kun den del, der ligge i den valgte kommune i kortet. Dette eksempel bruger Datafordelerens REST service til at finde geometrien for hele vejen. Men det kunne også være en anden service, der blev benyttet. <br/>Derudover benyttes 'condition' der styrer om servicen skal bruges.",
+    "name": "search22"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search26.html",
+    "title": "Søgning på adgangsadresser",
+    "description": "",
+    "name": "search26"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search7.html",
+    "title": "Søg i ArcGIS",
+    "description": "Det er muligt at bruge opsætningen fra en ArcGIS-server til at styre hvilke data, der kan søges i.",
+    "name": "search7"
+  },
+  {
+    "type": "example",
+    "id": "/examples/search8.html",
+    "title": "Søgning i få data",
+    "description": "Konfigurer søgefunktionen til at vise forslag allerede, når brugeren stiller sig i søgefeltet.",
+    "name": "search8"
+  },
+  {
+    "type": "example",
+    "id": "/examples/sheet1.html",
+    "title": "Data fra Excel",
+    "description": "Det er muligt at læse en Excel fil direkte og få data vist. Hvis geometrien findes i en kolonne i form af WKT eller to kolonner med hhv. x og y, kan det benyttes til at få vist i et kort",
+    "name": "sheet1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/shp1.html",
+    "title": "Shapefiler",
+    "description": "Septima Widget understøtter også shapefiler",
+    "name": "shp1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/stamenwarter.html",
+    "title": "Stamen Watercolor",
+    "description": "Har du brug for et alternativt baggrundskort, der ikke er som de andre, så brug for eksempel kort fra Stamen. Med Septima Widget er det nemt at trække på en række globale services.",
+    "name": "stamenwater"
+  },
+  {
+    "type": "example",
+    "id": "/examples/story2.html",
+    "title": "Historie",
+    "description": "Med story mode er det muligt at guide brugeren igennem en række oplysninger og samtidig præsentere oplysningerne i kortet. Herved kan man fortælle brugeren en historie i stedet for blot at vise en liste.",
+    "name": "story2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style1.html",
+    "title": "Style",
+    "description": "Brug de foruddefinerede styles med farver og ikoner, eller bestem selv, hvordan data skal præsenteres i kortet.",
+    "name": "style"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style13.html",
+    "title": "Linjetykkelse afhængigt af zoomniveau",
+    "description": "Stylen kan være afhængig af det aktuelle kort. Det kan f.eks. bruges til at styre at linjer vises som tynde streger når der er zoomet langt ud, mens de er tykkere når man er zoomet ind i kortet.",
+    "name": "style13"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style14.html",
+    "title": "SVG ikoner",
+    "description": "Brug SVG til at skabe skarpe og detaljerede ikoner i kortet",
+    "name": "style14"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style15.html",
+    "title": "Alternativ rendering",
+    "description": "Vis en alternativ geometri i kortet. Det kan f.eks. bruges til at vise centroiden for en polygon eller tilføje en buffer",
+    "name": "style15"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style16.html",
+    "title": "Flere styles",
+    "description": "Brug flere styles på samme objekt. Det kan bruges til at danne komplekse ikoner og meget andet.",
+    "name": "style16"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style17.html",
+    "title": "Vis linjens knudepunkter",
+    "description": "Brug flere styles på samme objekt til at vise linjen og dens knudepunkter",
+    "name": "style17"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style20.html",
+    "title": "Style fra fil",
+    "description": "Hent style fra en ekstern kilde. Herved kan den samme style genbruges i flere lag eller konfigurationer",
+    "name": "style20"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style22.html",
+    "title": "Skraveringer",
+    "description": "Brug skravering til at udfylde flader i kortet. Der findes en række forskellige skraveringer, hvor det er muligt at styre farve, linjetykkelse, vinkel mv. Se mere under <strong>fillpattern</strong> i dokumentationen.",
+    "name": "style22"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style26.html",
+    "title": "Inline SVG ikoner",
+    "description": "Det er muligt at angive SVG ikoner direkte i konfigurationen. Derudover indeholder Septima Widget en <code>namedstyle</code>, der kan anvendes (se nedenstående konfiguration). Herved er det muligt at styre <code>fillcolor</code> samt <code>scale</code> på ikonet",
+    "name": "style26"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style28.html",
+    "title": "Style styres ud fra URL parametre",
+    "description": "Det er muligt at benytte URL parametre eller attributter på elementet til at styre stylen med. I dette eksempel kan alle features skjules med URL parameteren 'hidefeatures'",
+    "name": "style28"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style5.html",
+    "title": "Style fra data",
+    "description": "Brug værdier fra data til at styre hvordan de skal vises i kortet. I dette eksempel findes der en attribut, der indeholder farven som hver række skal have, Denne værdi kan bruges direkte som 'color' i konfigurationen.",
+    "name": "style5"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style6.html",
+    "title": "Punktstyle",
+    "description": "Definér hele stylen på et objekt, herunder også symboler.",
+    "name": "style6"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style8.html",
+    "title": "Labels",
+    "description": "Vis tekster i kortet ud fra data. Teksterne kan være sammensat fra flere kolonner.",
+    "name": "style8"
+  },
+  {
+    "type": "example",
+    "id": "/examples/style9.html",
+    "title": "Retningspile på linjer",
+    "description": "Vis pile eller andre ikoner langs linjer. Det kan blandt andet bruges til at vise hvilken retning, en rute har. Start- og slutpunkt kan ligeledes vises med forskellig ikon. Dette kan kombineres med animation af linjen, men det er ikke et krav.",
+    "name": "style9"
+  },
+  {
+    "type": "example",
+    "id": "/examples/swipe1.html",
+    "title": "Sammenligh kort",
+    "description": "Brug 'Swipe' funktionen i Septima Widget til at vise forskellen mellem to forskellige kort",
+    "name": "swipe1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/table14.html",
+    "title": "Listevisning eksempel",
+    "description": "Listevisningen er stylet på en alternativ måde, der gør det nemmere at vise mange data men samtidig have overblikket.",
+    "name": "table14"
+  },
+  {
+    "type": "example",
+    "id": "/examples/table17.html",
+    "title": "Listevisningen afhængig af zoom",
+    "description": "Vis én liste når man er zoomet langt ud og en anden når man er zoomet langt ind.",
+    "name": "table17"
+  },
+  {
+    "type": "example",
+    "id": "/examples/table2.html",
+    "title": "Listevisning",
+    "description": "Få vist en tabel med data. Data kan for eksempel komme fra din egen service eller fra en offentlig tjeneste. Tabellen kan knyttes til et kort, så de samme data vises i kortet og i tabellen. Der er interaktion mellem kortet og tabellen, så det er muligt at klikke på en række i tabellen og zoome hen til objektet i kortet.",
+    "name": "table2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/table6.html",
+    "title": "Listevisning med knap",
+    "description": "I listen vises en knap, som man skal trykke på for at zoome og markere objektet i kortet. Ved at bruge en knap, øger det tilgængeligheden på siden, og gør det nemmere at navigere for personer, der ikke kan bruge en mus. Det er dog stadig muligt at klikke på en feature i kortet og få den markeret i listen.",
+    "name": "table6"
+  },
+  {
+    "type": "example",
+    "id": "/examples/table7.html",
+    "title": "Listevisning med info",
+    "description": "Brug listevisningen i kombination med info - men med forskellg indhold",
+    "name": "table7"
+  },
+  {
+    "type": "example",
+    "id": "/examples/table8.html",
+    "title": "Listevisning med lokalplaner",
+    "description": "Få vist en liste med lokalplener hentet direkte fra Plandata.dk. Tabellen kan knyttes til et kort, så de samme data vises i kortet og i tabellen. Der er interaktion mellem kortet og tabellen, så det er muligt at klikke på en række i tabellen og zoome hen til objektet i kortet.",
+    "name": "table8"
+  },
+  {
+    "type": "example",
+    "id": "/examples/time1.html",
+    "title": "Timeslider",
+    "description": "Bruge WMS Time via en timeslider i Septima Widget. Dette eksempel benytter Septimas skyggekort service, der kan kaldes med et hvilken som helst tidspunkt på året og få vist hvordan skyggerne falder netop her.",
+    "name": "time1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/upload1.html",
+    "title": "Upload data",
+    "description": "Tilføj lokale data til kortet ved at trække f.eks. en GeoJSON fil ind i kortet.",
+    "name": "upload1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/vectortiles12.html",
+    "title": "Vector Tiles fra Septima",
+    "description": "Data hentes fra en service hos Septima",
+    "name": "vectortiles12"
+  },
+  {
+    "type": "example",
+    "id": "/examples/vectortiles15.html",
+    "title": "Ejendomskort fra Septima",
+    "description": "Få vist et kort med ejendomme som vektortiles",
+    "name": "vectortiles15"
+  },
+  {
+    "type": "example",
+    "id": "/examples/vectortiles20.html",
+    "title": "Vector Tiles fra Septima i EPSG:25832",
+    "description": "Benyt vector tiles fra Septima til at få dit helt eget baggrundskort",
+    "name": "vectortiles20"
+  },
+  {
+    "type": "example",
+    "id": "/examples/vectortiles23.html",
+    "title": "Vector Tiles sammen med andre data",
+    "description": "Benyt vector tiles fra Septima til at få dit helt eget baggrundskort. Tilføj andre data ved f.eks. at benytte loadingstrategy, når der er mange data som her. Jordstykker hentes som WFS med en anden projektion og bygninger hentes fra en Flatgeobuf fil og placeres oven på kortet.",
+    "name": "vectortiles23"
+  },
+  {
+    "type": "example",
+    "id": "/examples/vectortiles27.html",
+    "title": "Stednavne som Vector Tiles fra Septima",
+    "description": "Benyt vector tiles fra Septima til at få dit helt eget baggrundskort. Suppleret med andre data fra Septima DataBox også via vector tiles. I dette tilfælde er det ejendomme samt skove.",
+    "name": "vectortiles27"
+  },
+  {
+    "type": "example",
+    "id": "/examples/wfs1.html",
+    "title": "WFS fra Datafordeleren",
+    "description": "Hent vektordata fra Datafordelerens WFS tjeneste",
+    "name": "wfs1"
+  },
+  {
+    "type": "example",
+    "id": "/examples/wfs2.html",
+    "title": "WFS fra Plandata",
+    "description": "Hent vektordata fra Plandata.dk's WFS tjeneste som GML (men brug hellere GeoJSON hvis muligt ved at tilføje <code>&outputFormat=json</code> til URL'en)",
+    "name": "wfs2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/wfs3.html",
+    "title": "Valgsteder",
+    "description": "Solrød Kommune har lavet dette eksempel, der benytter Datafordeleren og Dataforsyningen til at vise valgdestrikter og valgsteder i kommunen",
+    "name": "wfs3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/wfs4.html",
+    "title": "WFS jordstykker",
+    "description": "Hent jordstykker som vektordata fra Datafordelerens WFS tjeneste",
+    "name": "wfs4"
+  },
+  {
+    "type": "example",
+    "id": "/examples/wms2.html",
+    "title": "Vis kort hentet som WMS",
+    "description": "Septima Widget kan selvfølgelig også bruge WMS som lag",
+    "name": "wms2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/wmts2.html",
+    "title": "WMTS service fra anden projektion",
+    "description": "Det er muligt at anvende en rasterservice som f.eks. en WMTS, der ligger i en helt anden projektion. Billederne bliver transformeret on-the-fly og vises som ethvert andet lag.",
+    "name": "wmts2"
+  },
+  {
+    "type": "example",
+    "id": "/examples/wmts3.html",
+    "title": "Skyggekort og vectortiles",
+    "description": "Det er muligt at anvende en rasterservice som f.eks. en WMTS, der ligger i en helt anden projektion. Billederne bliver transformeret on-the-fly og vises som ethvert andet lag.",
+    "name": "wmts3"
+  },
+  {
+    "type": "example",
+    "id": "/examples/zoomtolayer1.html",
+    "title": "Zoom til data",
+    "description": "Få kortet til at starte med at vise det kortudsnit, som indeholder alle data. Dette er specielt hensigtsmæssigt, hvis data ændrer sig, og man derfor ikke kan angive et fast startudsnit.<br/>Eksemplet viser ligeledes, hvordan data kan tilføjes direkte i konfigurationen.",
+    "name": "zoomtolayer1"
+  }
+]

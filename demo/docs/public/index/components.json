@@ -1,0 +1,306 @@
+[
+  {
+      "type": "component",
+      "id": "/components/analytics.html",
+      "title": "Analytics fra Google eller Siteimprove",
+      "description": "Hvordan anvender brugerne Septima Widget? Med Analytics funktionen, er det muligt at følge med i, om brugeren klikker på en feature i kortet, vælger noget i listevisningen, tænder og slukker lag eller filtrerer data",
+      "name": "analytics",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/chart.html",
+      "title": "Graf",
+      "description": "Vis grafer ud fra data",
+      "name": "chart",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/conflict.html",
+      "title": "Konfliktsøgning",
+      "description": "Foretag en konfliktsøgning på f.eks. en adresse, et klik i kortet eller brugerens aktuelle position",
+      "name": "conflict",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/context.html",
+      "title": "Kontekst på siden",
+      "description": "Tilføj links på siden til objekter i kortet. Hvis der f.eks. står 'Børnehuset spiren' på siden, så kan brugeren klikke på det og der zoomes hen til det i kortet",
+      "name": "context",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/data.html",
+      "title": "Data",
+      "description": "Elementet \"data\" definerer et kommunikationslag som erstatning for f.eks. et kort. Herved er det muligt at få adgang til data uden at få vist et kort",
+      "name": "data",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/directlink.html",
+      "title": "Direkte links",
+      "description": "Klik på et objekt i kortet, åbner med det samme en side, der er relateret til dette objekt",
+      "name": "directlink",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/draw.html",
+      "title": "Tegn i kortet",
+      "description": "Giver brugeren mulighed for at tegne i kortet. Dette kan f.eks. bruges i forbindelse med konfliktsøgning og formular, men det kan også være relevant i forbindelse med integration til andre systemer",
+      "name": "draw",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/filter.html",
+      "title": "Filter",
+      "description": "Filtrer hvilke objkekter der skal vises i kortet, lister m.m",
+      "name": "filter",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/flow.html",
+      "title": "Flow",
+      "description": "Brug Septimas højdeservice, til at se hvilken vej en væske flyder. Det kan f.eks. bruges til at se hvor, der skal sættes ind, hvis en gylletank lækker eller en tankvogn forulykker. Anvendelsen af denne funktion kræver at man har tilkøbt adgang til Septimas højdeservice",
+      "name": "flow",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/form.html",
+      "title": "Formular",
+      "description": "Formular til indsamling af data fra brugerne",
+      "name": "form",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/fullextent.html",
+      "title": "Zoom til startudsnit",
+      "description": "Tilføjer en knap, så det er nemt for brugeren at komme tilbage til det sted hvor kortet startede",
+      "name": "fullextent",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/fullscreen.html",
+      "title": "Fullscreen",
+      "description": "Få kortet vist, så det fylder hele skrærmen",
+      "name": "fullscreen",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/googlestreetview.html",
+      "title": "Google Street View",
+      "description": "Vis Google Street View for et givent punkt i kortet",
+      "name": "googlestreetview",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/hover.html",
+      "title": "Tooltip i kortet",
+      "description": "Få vist en simple infoboks når musen føres over objekter i kortet",
+      "name": "hover",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/html.html",
+      "title": "HTML",
+      "description": "Tilføj indhold til din hjemmeside ud fra data. Det kan bruges til at vise forklaringer, billeder m.m. på siden ud fra indlæste data.",
+      "name": "html",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/image.html",
+      "title": "Billede",
+      "description": "Vis et billede på din hjemmeside. Det kan f.eks. bruges til at vise en generel signaturforklaring",
+      "name": "image",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/info.html",
+      "title": "Info",
+      "description": "Få vist en infoboks når brugeren klikker på et objekt i kortet",
+      "name": "info",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/kommuneplan.html",
+      "title": "Kommuneplan",
+      "description": "Hent oplysninger direkte fra Plandata.dk og få oplysingerne vist så de er til at forstå for brugeren",
+      "name": "kommuneplan",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/layerfilter.html",
+      "title": "Lagfilter",
+      "description": "Få et ekstra niveau i lagvælgeren. Der tilføjes en række overornede knapper. Når brugeren klikker på en knap, så vises de lag, der hører til denne knap. De andre lag skjules",
+      "name": "layerfilter",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/layerswitch.html",
+      "title": "Lagvælger",
+      "description": "Almindelig lagvælger med mulighed for at tilføje grupper m.m",
+      "name": "layerswitch",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/layertoggle.html",
+      "title": "Skift baggrundskort",
+      "description": "Skift baggrundskort i stil med Google Maps",
+      "name": "layertoggle",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/locate.html",
+      "title": "Zoom til",
+      "description": "Zoom til data. Det kan f.eks. bruges til at vise et kort, der er zoomet ind på en bestemt børnehave. Men det kan også bruges til at zoome ind til et bestemt område i kortet ud fra et ID",
+      "name": "locate",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/location.html",
+      "title": "Aktuelle position",
+      "description": "Zoom til brugerens aktuelle GPS position. Kan bruges til blot at flytte kortet til et relevant sted, men positionen kan også bruges til at foretage en konfliktsøgning",
+      "name": "location",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/map.html",
+      "title": "Kort",
+      "description": "Elementet \"map\" definerer en widgets overordnede kortegenskaber",
+      "name": "map",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/measure.html",
+      "title": "Mål afstand og areal",
+      "description": "Tilføj et måleværktøj til kortet, så det er muligt at måle afstande og arealer",
+      "name": "measure",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/overlay.html",
+      "title": "Aktivér kort",
+      "description": "Skal brugeren aktivere kortet inden brug? Dette er specielt hensigtsmæssigt i forbindelse med scroll på mobile enhender, men også når brugeren scroller med musehjulet. Her vil denne funktion forhindre, at der hovedløst zoomes eller panoreres i kortet",
+      "name": "overlay",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/overviewmap.html",
+      "title": "Oversigtskort",
+      "description": "Vis et oversigtskort for det aktuelle kortudsnit",
+      "name": "overviewmap",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/print.html",
+      "title": "Udskriv",
+      "description": "Udskriv kortet som PDF og meget mere.",
+      "name": "print",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/route.html",
+      "title": "Find nærmeste",
+      "description": "Find de nærmeste objekter i kortet ud fra f.eks. en adresse, brugerens aktuelle position eller et klik i kortet",
+      "name": "route",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/routing.html",
+      "title": "Rute",
+      "description": "Beregn ruter mellem to punkter i kortet. Det er muligt at klikke i kortet eller søge et punkt via søgefeltet",
+      "name": "routing",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/search.html",
+      "title": "Søg",
+      "description": "Søgning på flere ting, herunder adresser, stednavne, lokale data m.m. Funktionen bruger Septima Search, og alt hvad der kan søges i via Septima Search, kan der søges i her",
+      "name": "search",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/showpoint.html",
+      "title": "Vis markering",
+      "description": "Få et simpelt kort med markering af en adresse eller en koordinat",
+      "name": "showpoint",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/story.html",
+      "title": "Historie",
+      "description": "Fortæl en historie med dine data. I stedet for blot at vise en masse prikker på et kort, kan man med denne funktion guide brugeren gennem oplysingerne",
+      "name": "story",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/swipe.html",
+      "title": "Swipe",
+      "description": "Sammenlign to lag i kortet vha. \"Swipe\" funktionen",
+      "name": "swipe",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/table.html",
+      "title": "Listevisning",
+      "description": "Vis data som en liste. Det er specielt anvendeligt hvis man gerne vil gøre sine data tilgængelig for synsbesværede og andre handicappede. Hvis listen vises sammen med et kort, er der interaktion mellem listen og kortet. Det betyder at når brugeren klikker på et objekt i kortet, scolles der til objektet i listen og der kommer en markering i listen. Hvis man klikker i listen, zoomes der til objektet i kortet",
+      "name": "table",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/upload.html",
+      "title": "Upload",
+      "description": "Giver brugeren mulighed for at indlæse egne data i kortet. Dette kan f.eks. bruges hvis man vil se hvordan egne data ser ud",
+      "name": "upload",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/viewgenerator.html",
+      "title": "Viewgenerator",
+      "description": "Med \"viewgenerator\" er det muligt at få vist informationer om det aktuelle kortudsnit. Oplysningerne kan kopieres direkte ind i konfigurationen, hvilket gør det nemt at bruge.",
+      "name": "viewgenerator",
+      "categories": "documentation"
+  },
+  {
+      "type": "component",
+      "id": "/components/zoomtolayer.html",
+      "title": "Zoom til data",
+      "description": "Zoom til data i kortet. Det er f.eks. hvis data ændrer sig, så vil denne funktion sikre, at startudsnittet altid er det rigtige, når kortet vises",
+      "name": "zoomtolayer",
+      "categories": "documentation"
+  }
+]

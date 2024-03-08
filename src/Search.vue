@@ -111,29 +111,69 @@ onMounted(async () => {
 
   window.addEventListener("keydown", handleSearchHotKey);
   
-setTimeout(() => {
-  
-  var controller = new Septima.Search.Controller([],{ blankBehavior: "search"})
- 
-  var dawaSearcher = new Septima.Search.DawaSearcher({
-    kommunekode: '157',
-    onSelect: (a,b,c) => {
-      console.log(a,b,c);
-      
-    },
-    minimumShowCount: 0
-  })
-  controller.addSearcher(dawaSearcher)
- 
-  var view = new Septima.Search.DefaultView(
-    {
-      input: 'inputcontainer',
-      controller: controller
-    })
-
-  }, 2000);
+  setTimeout(() => {
+    initSearch()
+  }, 200);
 
 });
+
+const initSearch = async () => {
+  const resp1 = await fetch('http://localhost:5173/test/index/components.json')
+  const components = await resp1.json()
+
+  // const resp2 = await fetch('https://search.cdn.septima.dk/5.57.25-beta1/examples/widgetdoc/examples.json')
+  const resp2 = await fetch('http://localhost:5173/test/index/examples.json')
+  const examples = await resp2.json()
+
+  const controller = new Septima.Search.Controller([],{ blankBehavior: "search"})
+
+  const searchableComponentsJson = new Septima.Search.SearchableData({
+    singular: "Komponent",
+    plural: "Komponenter",
+    data: components,
+    searchProperties: ["title", "description"],
+    displaynameProperty: "title",
+    descriptionProperty: "description",
+    idProperty: "id"
+  })
+
+  const componentSearcher = new Septima.Search.DataSearcher({
+    searchableData: searchableComponentsJson,
+    onSelect: selectHandler,
+    minimumShowCount: 3,
+    iconURI: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZmlsbD0ibm9uZSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyIDNMMTUgNkwxMiA5TDkgNkwxMiAzWiIgc3Ryb2tlPSIjMjkyOTI5IiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMTIgMTVMMTUgMThMMTIgMjFMOSAxOEwxMiAxNVoiIHN0cm9rZT0iIzI5MjkyOSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTE4IDlMMjEgMTJMMTggMTVMMTUgMTJMMTggOVoiIHN0cm9rZT0iIzI5MjkyOSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTYgOUw5IDEyTDYgMTVMMyAxMkw2IDlaIiBzdHJva2U9IiMyOTI5MjkiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
+  })
+  controller.addSearcher (componentSearcher)
+
+  var searchableExamplesJson = new Septima.Search.SearchableData({
+      singular: "Eksempel",
+      plural: "Eksempler",
+      data: examples,
+      searchProperties: ["title", "description"],
+      displaynameProperty: "title",
+      descriptionProperty: "description",
+      idProperty: "id"
+    })
+ 
+    var examplesSearcher = new Septima.Search.DataSearcher({
+      searchableData: searchableExamplesJson,
+      onSelect: selectHandler,
+      minimumShowCount: 3,
+      iconURI: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB3aWR0aD0iMTc5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTUzIDEzOTlsLTUwIDUwcS0xMCAxMC0yMyAxMHQtMjMtMTBsLTQ2Ni00NjZxLTEwLTEwLTEwLTIzdDEwLTIzbDQ2Ni00NjZxMTAtMTAgMjMtMTB0MjMgMTBsNTAgNTBxMTAgMTAgMTAgMjN0LTEwIDIzbC0zOTMgMzkzIDM5MyAzOTNxMTAgMTAgMTAgMjN0LTEwIDIzem01OTEtMTA2N2wtMzczIDEyOTFxLTQgMTMtMTUuNSAxOS41dC0yMy41IDIuNWwtNjItMTdxLTEzLTQtMTkuNS0xNS41dC0yLjUtMjQuNWwzNzMtMTI5MXE0LTEzIDE1LjUtMTkuNXQyMy41LTIuNWw2MiAxN3ExMyA0IDE5LjUgMTUuNXQyLjUgMjQuNXptNjU3IDY1MWwtNDY2IDQ2NnEtMTAgMTAtMjMgMTB0LTIzLTEwbC01MC01MHEtMTAtMTAtMTAtMjN0MTAtMjNsMzkzLTM5My0zOTMtMzkzcS0xMC0xMC0xMC0yM3QxMC0yM2w1MC01MHExMC0xMCAyMy0xMHQyMyAxMGw0NjYgNDY2cTEwIDEwIDEwIDIzdC0xMCAyM3oiLz48L3N2Zz4="
+    })
+ 
+    controller.addSearcher (examplesSearcher)
+    
+    const view = new Septima.Search.DefaultView({
+    input: 'inputcontainer',
+    controller: controller
+  })
+
+}
+
+const selectHandler = (a, b, c) => {
+  console.log(a,b,c);
+} 
 
 const groupedResults = computed(() => GroupBy(result.value, (x:any) =>
                   x.link.split('/').slice(0, -1).join('-')
